@@ -27,14 +27,6 @@ The full processing pipeline includes:
 
 * **3D Visualization:** The ability to visualize the ground, non-ground points, and the detected bounding boxes in real-time.
 
-## ⚡ Performance
-
-A key motivation for this project was to address the performance limitations of CPU-based clustering algorithms. As shown in these two videos, the CUDA-accelerated version is significantly faster than the CPU version, making it suitable for real-time applications.
-
-* **CPU Performance:** [[Link to CPU video](https://youtu.be/ickDlyV1Nuk)]
-
-* **GPU Performance:** [[Link to GPU video](https://youtu.be/J843j-RZsh4)]
-
 ### **Accuracy**
 
 While the GPU implementation delivers a massive speed increase, ongoing development is focused on improving the accuracy of the clustering and detection to reduce false positives and enhance the quality of the final output.
